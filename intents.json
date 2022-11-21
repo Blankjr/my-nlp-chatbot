@@ -1,0 +1,148 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell nothing here."
+      ]
+    },
+    {
+      "tag": "joke",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "I said to the Gym instructor: 'Can you tech me to do the splits?' \n He said, ' How flexible are you?' I said: 'I can't make Tuesdays.'",
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "ask_weather",
+      "patterns": [
+        "What's the weather today?",
+        "I'd like to know the weather.",
+        "Tell me the weather.",
+        "The weather, please"
+      ],
+      "responses": [
+        "I have no idea, you should just ask the weather man.",
+        "It may be sunny, but it is also likely to rain.",
+        "What does your phone say about it?"
+      ]
+    },
+    {
+      "tag": "talk_hobbies",
+      "patterns": [
+        "I'd like to learn how to play:",
+        "I want to play",
+        "Do you play"
+      ],
+      "responses": [
+        "I used to play the guitar a while ago.",
+        "Which kind of music would you like to play?"
+      ]
+    },
+    {
+      "tag": "feeling_query",
+      "patterns": [
+        "How are you?",
+        "How are you feeling?"
+      ],
+      "responses": [
+        "I am good, thank you. How are you?"
+      ]
+    },
+    {
+      "tag": "feeling_answer_good",
+      "patterns": [
+        "I am good.",
+        "I am happy.",
+        "I have a good day."
+      ],
+      "responses": [
+        "Good to hear :)"
+      ]
+    },
+    {
+      "tag": "feeling_answer_bad",
+      "patterns": [
+        "I feel bad.",
+        "I am sad.",
+        "I have a sad day.",
+        "I have a bad day."
+      ],
+      "responses": [
+        "I hope you get better soon."
+      ]
+    },
+    {
+      "tag": "name_query",
+      "patterns": [
+        "What is your name.",
+        "Can you tell me your name?",
+        "How should I call you?"
+      ],
+      "responses": [
+        "Peter"
+      ]
+    },
+    {
+      "tag": "specific_question",
+      "patterns": [
+        "Can you tell me something about"
+      ],
+      "responses": [
+        "Sorry google blocked my IP. You have to look it up yourself."
+      ]
+    },
+    {
+      "tag": "self_aware",
+      "patterns": [
+        "Can you prove you are self-aware?",
+        "Are you self aware?"
+      ],
+      "responses": [
+        "That is an interesting question, can you prove that you are?"
+      ]
+    }
+  ]
+}
